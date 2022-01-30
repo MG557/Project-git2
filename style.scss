@@ -46,6 +46,18 @@ p {
 .text-one {
    width: 50%;
 }
+/*footer*/
+.page-footer {
+    background: #242424;
+    font-family: #fff;
+    color: $color-light;
+    font-size: 12px;
+    margin: 48px 0 0 0;
+    }
+a {
+    color: blue;
+    text-align: center;
+    }
         
 /*Media*/
 @media (max-width: 767px) {
