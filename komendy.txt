@@ -1,1 +1,35 @@
-html-validate *.html
+Teresa@TF MINGW64 /c/Project-git 1/learning-git-2 (main)
+$ npx html-validate *.html
+
+C:\Project-git 1\learning-git-2\index.html
+  11:1   error  Trailing whitespace  no-trailing-whitespace
+  12:11  error  Trailing whitespace  no-trailing-whitespace
+  34:21  error  Trailing whitespace  no-trailing-whitespace
+  36:1   error  Trailing whitespace  no-trailing-whitespace
+  44:21  error  Trailing whitespace  no-trailing-whitespace
+  53:21  error  Trailing whitespace  no-trailing-whitespace
+  82:94  error  Trailing whitespace  no-trailing-whitespace
+
+✖ 7 problems (7 errors, 0 warnings)
+
+More information:
+  https://html-validate.org/rules/no-trailing-whitespace.html
+
+
+Teresa@TF MINGW64 /c/Project-git 1/learning-git-2 (main)
+$ node_modules/.bin/html-validate *.html
+
+C:\Project-git 1\learning-git-2\index.html
+  11:1   error  Trailing whitespace  no-trailing-whitespace
+  12:11  error  Trailing whitespace  no-trailing-whitespace
+  34:21  error  Trailing whitespace  no-trailing-whitespace
+  36:1   error  Trailing whitespace  no-trailing-whitespace
+  44:21  error  Trailing whitespace  no-trailing-whitespace
+  53:21  error  Trailing whitespace  no-trailing-whitespace
+  82:94  error  Trailing whitespace  no-trailing-whitespace
+
+✖ 7 problems (7 errors, 0 warnings)
+
+More information:
+  https://html-validate.org/rules/no-trailing-whitespace.html
+
