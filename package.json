@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/MG557/Project-git2#readme",
   "devDependencies": {
-    "browser-sync": "^2.27.7"
+    "browser-sync": "^2.27.7",
+    "html-validate": "^6.2.0"
   }
 }
